@@ -26,14 +26,14 @@ print("Your mission is to find the treasure. And not to die.")
 #https://www.draw.io/?lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Treasure%20Island%20Conditional.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1oDe4ehjWZipYRsVfeAx2HyB7LCQ8_Fvi%26export%3Ddownload
 
 #Write your code below this line 👇
-direction = input(print("You are on a cross road and there is a tree and on the bark that says 'Not all solutions are right.' The words carved into a dagger it seems. and beneath there lies a skeleton. Hmmm this made you consider there could be a dangerous end to this paths. Maybe the now skeleton could have really helped if it carved the right direction instead of riddles. But who care this is a Text RPG. Are you going to the left or right player? choose wisely."))
+direction = input(print("You are on a cross road and there is a tree and on the bark that says 'Not all solutions are right.' The words carved into a dagger it seems. and beneath there lies a skeleton. Hmmm this made you consider there could be a dangerous end to this paths. Maybe the now skeleton could have really helped if it carved the right direction instead of riddles. But who care this is a Text RPG. Are you going to the left or right player? choose wisely.\n")).lower()
 
 if direction == "right":
   print("When you were walking suddenly you start to fall in a pitt. You tried to slow your fall with your dagger but while it slowed you the dagger is stuck to the walls and it slipped from your hand. While luckily surviving you have no way to get up. And when you take a closer look at the floor -which is not very big- there lies other skeletons. At this point you could scream or shout to get some help from others. But you feel like nobody is gonna go trough this path soon. Maybe you could name a skeleton Wilson and befriend it. Until the cold death comes painfully atleast you could have a company.  **Gameover**       ")
 if direction == "left":
-  direction2 =input(print('You have come to a lake. There is a island in the middle of the lake. You thought to yourself well this is a game about Treasure Island maybe I should go there. You think to yourself how can I get there? but the only two choices are you could have come up with is either "swimming" to the island or "waiting" a boat to come and take you there. What are you gonna do now player? Type "swim" or "wait" in order to choose your actions.'))
+  direction2 =input(print('You have come to a lake. There is a island in the middle of the lake. You thought to yourself well this is a game about Treasure Island maybe I should go there. You think to yourself how can I get there? but the only two choices are you could have come up with is either "swimming" to the island or "waiting" a boat to come and take you there. What are you gonna do now player? Type "swim" or "wait" in order to choose your actions.\n')).lower()
   if direction2 == "wait":
-    direction3 = input(print("I don't know how did you manage to do it but somehow someone took a pity on you and offered to trip to the island in the middle.*narrator is frustrated at this point* *sigh* Well player, you arrived at the island and with some dumb luck you could find 3 entrances in a boulder. There is a Green, Red and Blue door. And you thought to yourself What? Is the game this easy? Maybe I should return the game into the store but you haven't even bought this game.Which door are you going in? 'Green', 'Red', 'Blue' "))
+    direction3 = input(print("I don't know how did you manage to do it but somehow someone took a pity on you and offered to trip to the island in the middle.*narrator is frustrated at this point* *sigh* Well player, you arrived at the island and with some dumb luck you could find 3 entrances in a boulder. There is a Green, Red and Blue door. And you thought to yourself What? Is the game this easy? Maybe I should return the game into the store but you haven't even bought this game.Which door are you going in? 'Green', 'Red', 'Blue' \n")).lower()
     if direction3 =="Blue":
       print("You've got eaten by beasts. **Game over**")
     if direction3 == "Red":
@@ -42,8 +42,3 @@ if direction == "left":
       print("You win! I guess lol. Don't ever comeback. *the game teleports with your computer for the game is never seen again. oh you lost your computer too lol.*")
   if direction2=="swim":
     print("You somehow attacked by level 900 Carp and got killed. Then carp teabagged on you. **Game over**")
-
-
-"""
-Thanks for playing player.
-"""
